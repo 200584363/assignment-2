@@ -116,6 +116,37 @@ blockquote {
     color: #0077cc;
     text-decoration: none;
 }
+/* CSS for Top Cast section*/
+.cast{
+    width: 96%;
+    border-radius: 10px;
+    color: #efeeee;
+    display: inline-block;
+    background-color: #272626;
+    padding: 30px;
+    margin-top: 10px;
+}
+.cast img{
+    width: 100px;
+    height: 100px;
+    text-align: justify;
+    float: left;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.topcast{
+    display: inline-block;
+    margin-top: 10px;
+}
+.cast a{
+    color: #ccc;
+}
+.text{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    float: left;
+}
 /* footer design */
 footer{
     color: #fff;
@@ -128,10 +159,10 @@ footer{
     body {
         max-width: auto;
     }
-    #links2 {
+    #links2, .cast {
         max-width: 992px;
     }
-    #links {
+    #links, .cast {
         width: auto;
     }
 }
@@ -140,10 +171,10 @@ footer{
     body {
         max-width: auto;
     }
-    #links2 {
+    #links2, .cast{
         max-width: 600px;
     }
-    #links {
+    #links, .cast{
         width: auto;
     }
 }
